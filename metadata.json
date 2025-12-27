@@ -1,0 +1,8 @@
+{
+  "name": "CivicPulse AI",
+  "description": "An AI-powered community impact platform for reporting and prioritizing urban issues using Gemini vision and text analysis.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}

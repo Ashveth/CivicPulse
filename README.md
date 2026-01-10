@@ -1,49 +1,20 @@
-🌍 CivicPulse
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-CivicPulse is a community-driven civic engagement platform that helps people report, discuss, and track local problems in cities, campuses, and neighborhoods using modern web technology and AI.
+# Run and deploy your AI Studio app
 
-Turning everyday civic issues into visible, actionable insights.
+This contains everything you need to run your app locally.
 
-🚀 Inspiration
+View your app in AI Studio: https://ai.studio/apps/drive/1bf-lSQ3nCgWEoubC3eGDGt0p-5bYd_bO
 
-Most tech products focus on global-scale problems, while local issues — broken infrastructure, safety concerns, campus problems, and community needs — remain ignored.
+## Run Locally
 
-CivicPulse was built to give local communities a real voice, making civic participation simple, transparent, and impactful.
+**Prerequisites:**  Node.js
 
-🧠 What CivicPulse Does
 
-📍 Report local issues with location and details
-
-🗳️ Upvote issues to show urgency
-
-💬 Discuss problems and solutions with the community
-
-🗺️ View nearby issues on an interactive map
-
-🤖 Use AI to organize and prioritize civic concerns
-
-✨ Features
-
-Location-based issue reporting
-
-Community upvotes & comments
-
-Trending local issues feed
-
-Interactive map view
-
-Category tags (Roads, Safety, Campus, Environment, etc.)
-
-AI-assisted issue organization (Gemini)
-
-Clean, mobile-first UI
-
-🛠️ Tech Stack
-
-Frontend: Vite + React + TypeScript
-
-AI: Google AI Studio (Gemini)
-
-Deployment: Vercel
-
-Architecture: Headless & scalable
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
